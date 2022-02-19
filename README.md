@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://github.com/crishellco/eslint-plugin/actions/workflows/node-ci.yml/badge.svg" alt="Build">
-  <a href="https://codecov.io/gh/crishellco/vue-hubble"><img src="https://codecov.io/gh/crishellco/eslint-plugin/branch/master/graph/badge.svg?token=IKcXpNL84k" alt="codecov"></a>
-  <a href="https://codeclimate.com/github/crishellco/eslint-plugin/maintainability"><img src="https://api.codeclimate.com/v1/badges/e1f2536b9be3c32e6fef/maintainability" alt="Maintainability"></a>
+  <a href="https://codecov.io/gh/crishellco/eslint-plugin"><img src="https://codecov.io/gh/crishellco/eslint-plugin/branch/master/graph/badge.svg?token=IKcXpNL84k" alt="codecov"></a>
+  <a href="https://codeclimate.com/github/crishellco/eslint-plugin/maintainability"><img src="https://api.codeclimate.com/v1/badges/d1cd1c83761a23f610fd/maintainability" /></a>
   <br>
 </p>
 
