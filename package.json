@@ -23,7 +23,8 @@
     "lint:js": "eslint .",
     "lint:lockfile": "lockfile-lint",
     "test:unit": "jest",
-    "lint:peer": "npm ls >/dev/null"
+    "lint:peer": "npm ls >/dev/null",
+    "release": "semantic-release"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
