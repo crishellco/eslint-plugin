@@ -15,6 +15,7 @@
   "bugs": {
     "url": "https://github.com/crishellco/eslint-plugin/issues"
   },
+  "homepage": "https://crishellco.github.io/eslint-plugin/",
   "publishConfig": {
     "access": "public"
   },
