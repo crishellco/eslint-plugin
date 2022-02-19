@@ -15,6 +15,7 @@ for [Vue.js](https://vuejs.org/) projects.
 * [Usage](#usage)
   * [Installation](#installation)
   * [Add to the project config](#add-to-the-project-config)
+  * [Extend the recommended config](#extend-the-recommended-config)
 * [Contributing](#contributing)
   * [Dependencies](#dependencies)
   * [Verification](#verification)
