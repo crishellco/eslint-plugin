@@ -1,37 +1,82 @@
-## Welcome to GitHub Pages
+<p align="center">
+  <img src="https://github.com/crishellco/eslint-plugin/actions/workflows/node-ci.yml/badge.svg" alt="Build">
+  <a href="https://codecov.io/gh/crishellco/vue-hubble"><img src="https://codecov.io/gh/crishellco/eslint-plugin/branch/master/graph/badge.svg?token=IKcXpNL84k" alt="codecov"></a>
+  <a href="https://codeclimate.com/github/crishellco/eslint-plugin/maintainability"><img src="https://api.codeclimate.com/v1/badges/e1f2536b9be3c32e6fef/maintainability" alt="Maintainability"></a>
+  <br>
+</p>
 
-You can use the [editor on GitHub](https://github.com/crishellco/eslint-plugin/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# @crishellco/eslint-plugin
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+An opinionated [ESLint](https://eslint.org) [Plugin](https://eslint.org/docs/developer-guide/working-with-plugins)
+for [Vue.js](https://vuejs.org/) projects.
 
-### Markdown
+## Table of Contents
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* [Usage](#usage)
+  * [Installation](#installation)
+  * [Add to the project config](#add-to-the-project-config)
+  * [Extend the recommended config](#extend-the-recommended-config)
+* [Contributing](#contributing)
+  * [Dependencies](#dependencies)
+  * [Verification](#verification)
 
-```markdown
-Syntax highlighted code block
+## Usage
 
-# Header 1
-## Header 2
-### Header 3
+<!--consumer-badges start -->
 
-- Bulleted
-- List
+<!--consumer-badges end -->
 
-1. Numbered
-2. List
+### Installation
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```sh
+$ yarn add @crishellco/eslint-plugin --dev
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Add to the project config
 
-### Jekyll Themes
+Such as in an `.eslintrc.js`
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/crishellco/eslint-plugin/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```js
+module.exports = {
+  plugins: [ '@crishellco' ]
+};
+```
 
-### Support or Contact
+### Extend the recommended config
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+```js
+module.exports = {
+  extends: [ 'plugin:@crishellco/recommended' ],
+  plugins: [ '@crishellco' ]
+};
+```
+
+## Contributing
+
+<!--contribution-badges start -->
+
+[![Conventional Commits][commit-convention-badge]][commit-convention-link]
+[![Commitizen friendly][commitizen-badge]][commitizen-link]
+
+<!--contribution-badges end -->
+
+### Dependencies
+
+```sh
+$ nvm install
+$ yarn install
+```
+
+### Verification
+
+```sh
+$ yarn test
+```
+
+[commit-convention-link]: https://conventionalcommits.org
+
+[commit-convention-badge]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
+
+[commitizen-link]: http://commitizen.github.io/cz-cli/
+
+[commitizen-badge]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
