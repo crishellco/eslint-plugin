@@ -2,7 +2,7 @@
   "name": "@crishellco/eslint-plugin",
   "version": "0.0.0-semantically-released",
   "author": "Chris Mitchell (@crishellco)",
-  "description": "Opinionated ESLint Plugin for Vue.js projects.",
+  "description": "An opinionated ESLint Plugin for Vue.js projects.",
   "main": "lib/index.js",
   "repository": {
     "type": "git",

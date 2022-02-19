@@ -7,7 +7,7 @@
 
 # @crishellco/eslint-plugin
 
-Opinionated [ESLint](https://eslint.org) [Plugin](https://eslint.org/docs/developer-guide/working-with-plugins)
+An opinionated [ESLint](https://eslint.org) [Plugin](https://eslint.org/docs/developer-guide/working-with-plugins)
 for [Vue.js](https://vuejs.org/) projects.
 
 ## Table of Contents
