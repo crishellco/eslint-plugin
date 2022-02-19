@@ -1,0 +1,6 @@
+{
+  "path": "yarn.lock",
+  "type": "yarn",
+  "validate-https": true,
+  "allowed-hosts": ["yarn", "https://artifactory.rms-npe-internal.com/artifactory/api/npm/rms-npm-ci-local"]
+}
